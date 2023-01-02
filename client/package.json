@@ -1,0 +1,39 @@
+{
+  "name": "codesync",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server:dev": "nodemon server.js",
+    "start": "node server.js",
+    "tailwind": "npx tailwindcss -i ./src/styles/index.css -o ./src/styles/tailwind.css --watch"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.0.13",
+    "@uiw/codemirror-extensions-color": "^4.19.5",
+    "@uiw/codemirror-theme-androidstudio": "^4.19.5",
+    "@uiw/react-codemirror": "^4.19.5",
+    "codemirror": "5.0.0",
+    "express": "^4.18.2",
+    "postcss": "^8.4.20",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-codemirror": "^1.0.0",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.4.0",
+    "react-router-dom": "^6.6.1",
+    "socket.io": "^4.5.4",
+    "socket.io-client": "^4.5.4",
+    "tailwindcss": "^3.2.4",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.9",
+    "@vitejs/plugin-react": "^3.0.0",
+    "vite": "^4.0.0"
+  }
+}
